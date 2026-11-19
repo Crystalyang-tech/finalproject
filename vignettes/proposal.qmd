@@ -1,1 +1,27 @@
+Addressed to: BST260 Teaching Team, Fall 2026
 
+# Project overview
+
+For my final project, I plan to write two vignettes using two different datasets. The first will describe firearm law records from the RAND database. The second will describe firearm mortality rates from the CDC. I will analyze each dataset separately and focus on patterns in the data. 
+
+#Topic 1 :
+
+**Research question:** Do the proportions of restrictive and permissive firearm law records differ across law classes in the RAND dataset?
+
+I will use the `gunleg` dataset included in the `finalproject` package.
+I will count restrictive and permissive records within each Law.Class, then calculate the proportion of each type within each class. I will summarize the number of records in each group and use a table and a 100% stacked bar chart to compare the proportions across law classes.
+
+**Limitations**
+Hypothesis:Some law classes may have more records than others. The data show which laws were recorded, but not whether they were enforced or how they affected people. So I will describe the data, not make claims about cause and effect.
+
+# Topic 2: Firearm mortality by state and year
+
+**Research question:** How did firearm death rates vary across states and over time from 2014 through 2024?
+
+
+The data are available in my package as `cdcfiremort`. I will focus on 2014–2024 years.
+
+I will summarize firearm death rates by year and by state. I will report descriptive statistics such as the mean, median, and range of death rates, and use plots to show changes over time and differences across states. I will also check for missing values and describe the number of state-year records included in the analysis.
+
+**Limitations**
+These data summarize each state, so they do not show differences between people. Other factors may explain differences between states. I will describe the patterns but not explain their causes.
