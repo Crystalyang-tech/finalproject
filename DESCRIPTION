@@ -7,8 +7,9 @@ Authors@R:
            role = c("aut", "cre"),
            email = "yipching_yang@hsph.harvard.edu",
            comment = c(ORCID = "0000-0002-1825-0097"))
-Description: provide text on what your project emphasizes and 
-	accomplishes in three or more complete sentences.
+Description: Provides public health datasets for the BST 260 final project.
+    Includes data on waterborne illness, homicide, firearm mortality, and firearm legislation.
+    Supports exploratory analyses and project documentation through a package website.
 Depends: R (>= 4.5.0)
 Suggests: knitr, testthat, rmarkdown, pkgdown
 License: Artistic-2.0
